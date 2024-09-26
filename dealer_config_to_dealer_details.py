@@ -59,21 +59,21 @@ def post_dealer_details(enterprise_id, team_id, location_data):
             }
          }
 
-     print("Payload to be sent:", payload)
+    print("Payload to be sent:", payload)
 
-      # URL for the API
-      url = 'http://beta-api.spyne.xyz/dealers/v1/dealer/details'
+    # URL for the API
+    url = 'http://beta-api.spyne.xyz/dealers/v1/dealer/details'
 
-       try:
-            # Send the POST request
-            response = requests.post(url, json=payload)
-            response.raise_for_status()  # Raise an error for bad status codes
+    try:
+        # Send the POST request
+        response = requests.post(url, json=payload)
+        response.raise_for_status()  # Raise an error for bad status codes
 
-            # Print response for debugging
-            print(f"Response Status: {response.status_code}")
-            print(f"Response Text: {response.text}")
-        except requests.exceptions.RequestException as e:
-            print(f"HTTP Request failed: {e}")
+        # Print response for debugging
+        print(f"Response Status: {response.status_code}")
+        print(f"Response Text: {response.text}")
+    except requests.exceptions.RequestException as e:
+        print(f"HTTP Request failed: {e}")
 
 
 if __name__ == "__main__":
