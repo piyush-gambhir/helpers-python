@@ -3,7 +3,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Import the initialize function for Typesense client
-from typesense_helpers.client.initialize import initialize_typesense_client
+from typesense.client.initialize import initialize_typesense_client
 
 # Initialize the Typesense client
 client = initialize_typesense_client()

@@ -1,8 +1,14 @@
-# ENVIRONMENT FILE
+# environment file
 .env
 
-# PyCache
+# pycache
 __pycache__/
 
-# Virtual Environment
+# virtual environment
 venv/
+
+# vscode
+.vscode/
+
+# logs
+logs/

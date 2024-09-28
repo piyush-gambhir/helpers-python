@@ -6,7 +6,9 @@ authors = ["Piyush Gambhir <90608533+piyush-gambhir@users.noreply.github.com>"]
 readme = "README.md"
 packages = [
     { include = "mongo" },
-    { include = "typesense" }
+    { include = "typesense" },
+    { include = "aws" },
+    { include = "utils" },
 ]
 
 [tool.poetry.dependencies]
@@ -17,6 +19,7 @@ python-dotenv = "^1.0.1"
 requests = "^2.32.3"
 rich = "^13.8.1"
 typesense = "^0.21.0"
+boto3 = "^1.35.29"
 
 
 [build-system]
