@@ -2,7 +2,7 @@ import os
 import requests
 from dotenv import load_dotenv
 # Your helper function to get Mongo client
-from mongo_helpers.client.get_mongo_client import get_mongo_client
+from helpers.client.get_mongo_client import get_mongo_client
 
 # Load environment variables
 load_dotenv()
@@ -62,7 +62,7 @@ def post_dealer_details(enterprise_id, team_id, location_data):
     print("Payload to be sent:", payload)
 
     # URL for the API
-    url = 'http://beta-api.spyne.xyz/dealers/v1/dealer/details'
+    url = 'http://localhost:1337/dealers/v1/dealer/details'
 
     try:
         # Send the POST request

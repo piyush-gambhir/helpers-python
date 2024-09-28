@@ -1,9 +1,13 @@
 [tool.poetry]
-name = "mongo-helpers"
+name = "helpers"
 version = "0.1.0"
 description = ""
 authors = ["Piyush Gambhir <90608533+piyush-gambhir@users.noreply.github.com>"]
 readme = "README.md"
+packages = [
+    { include = "mongo" },
+    { include = "typesense" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -11,6 +15,8 @@ pymongo = "^4.9.1"
 pytest = "^8.3.3"
 python-dotenv = "^1.0.1"
 requests = "^2.32.3"
+rich = "^13.8.1"
+typesense = "^0.21.0"
 
 
 [build-system]
