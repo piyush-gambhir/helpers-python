@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "helpers"
+name = "helpers-python"
 version = "0.1.0"
 description = ""
 authors = ["Piyush Gambhir <90608533+piyush-gambhir@users.noreply.github.com>"]
