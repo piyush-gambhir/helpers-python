@@ -5,9 +5,9 @@ description = ""
 authors = ["Piyush Gambhir <90608533+piyush-gambhir@users.noreply.github.com>"]
 readme = "README.md"
 packages = [
-    { include = "mongo" },
-    { include = "typesense" },
-    { include = "aws" },
+    { include = "mongo_helpers" },
+    { include = "typesense_helpers" },
+    { include = "aws_helpers" },
     { include = "utils" },
 ]
 
