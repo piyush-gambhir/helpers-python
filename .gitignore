@@ -12,3 +12,20 @@ venv/
 
 # logs
 logs/
+
+# csv files
+*.csv
+
+#json files
+*.json
+
+# images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# videos
+*.mp4
+*.webm
