@@ -8,6 +8,7 @@ packages = [
     { include = "mongo_helpers" },
     { include = "typesense_helpers" },
     { include = "aws_helpers" },
+    {include= "ollama_helpers"},
     { include = "utils" },
 ]
 
